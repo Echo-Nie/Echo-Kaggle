@@ -4,49 +4,65 @@ This repository documents my learning journey on the Kaggle platform, including 
 ## Getting Start
 ### 1. Titanic (update 2025/1/3)
 
-[泰坦尼克号 - 从灾难中学习机器学习 |卡格尔 --- Titanic - Machine Learning from Disaster | Kaggle](https://www.kaggle.com/competitions/titanic)
+[Titanic - Machine Learning from Disaster | Kaggle](https://www.kaggle.com/competitions/titanic)
 
-1912 年 4 月 15 日，在她的处女航中，被广泛认为“永不沉没”的 RMS 泰坦尼克号在与冰山相撞后沉没。不幸的是，船上的每个人都没有足够的救生艇，导致 1502 名乘客和船员中有 2224 人死亡。虽然生存下来有一些运气因素，但似乎某些群体比其他人更有可能生存下来。在本次挑战赛中，我们要求您构建一个预测模型，使用乘客数据（即姓名、年龄、性别、社会经济阶层等）回答“什么样的人更有可能生存”这个问题。
+The sinking of the Titanic is one of the most infamous shipwrecks in history.
 
-Goal：你的工作是预测一名乘客是否在泰坦尼克号沉没后幸存下来。对于测试集中的每个值，您必须预测变量的 0 或 1 值，您的分数是您正确预测的乘客百分比，这称为[准确性 ](https://en.wikipedia.org/wiki/Accuracy_and_precision#In_binary_classification)。
+On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
+
+While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
+
+In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+
+Goal：It is your job to predict if a passenger survived the sinking of the Titanic or not. For each in the test set, you must predict a 0 or 1 value for the variable. Your score is the percentage of passengers you correctly predict. This is known as [accuracy](https://en.wikipedia.org/wiki/Accuracy_and_precision#In_binary_classification). You should submit a csv file with exactly 418 entries plus a header row. Your submission will show an error if you have extra columns (beyond PassengerId and Survived) or rows.
 
 $$
 Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
 $$
 
+The file should have exactly 2 columns:
 
+- PassengerId (sorted in any order)
+- Survived (contains your binary predictions: 1 for survived, 0 for deceased)
 
+```
+PassengerId,Survived
+892,0
+893,1
+894,0
+Etc.
+```
 
 ## Playground
 ### 1. Predict Calorie Expenditure (update 2025/5/6)
 
-[预测卡路里消耗 |卡格尔 --- Predict Calorie Expenditure | Kaggle](https://www.kaggle.com/competitions/playground-series-s5e5)
+[Predict Calorie Expenditure | Kaggle](https://www.kaggle.com/competitions/playground-series-s5e5)
 
 Your goal is to predict how many calories were burned during a workout.
 
-本次比赛的评估指标是**均方根对数误差**（Root Mean Squared Logarithmic Error）。
+The evaluation metric for this competition is R**oot Mean Squared Logarithmic Error** .
 
-RMSLE 的计算公式如下：
+The **RMSLE** is calculated as:
 
 $$
 \text{RMSLE} = \left( \frac{1}{n} \sum_{i=1}^{n} \left( \log(1 + \hat{y}_i) - \log(1 + y_i) \right) \right)^{\frac{1}{2}}
 $$
 
-其中：
+where:
 
-- $n$ 是测试集中观测值的总数
-- $\hat{y}_i$ 是目标实例 $i$ 的预测值
-- $y_i$ 是目标实例 $i$ 的实际值
-- $\log$ 是自然对数
+- $n$ is the total number of observations in the test set,
+- $\hat{y}_i$ is the predicted value of the target for instance (i),
+- $y_i$ is the actual value of the target for instance (i), and,
+- $\log$ is the natural logarithm.
 
-对于测试集中的每一行 `id`，你必须预测连续目标 `Calories`。文件应包含一个标题，并具有以下格式：
+For each `id` row in the test set, you must predict the continuous target, `Calories`. The file should contain a header and have the following format:
 
 ```
 id,Calories
 750000,93.2
 750001,27.42
 750002,103.8
-等等。
+etc。
 ```
 
 
