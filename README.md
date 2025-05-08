@@ -2,7 +2,7 @@
 This repository documents my learning journey on the Kaggle platform, including model study notes and implementations of models actually used in various competitions. 
 
 ## Getting Start
-### 1. Titanic
+### 1. Titanic(Update 2025/1/3)
 
 [泰坦尼克号 - 从灾难中学习机器学习 |卡格尔 --- Titanic - Machine Learning from Disaster | Kaggle](https://www.kaggle.com/competitions/titanic)
 
@@ -18,7 +18,7 @@ $$
 
 
 ## Playground
-### 1. Predict Calorie Expenditure
+### 1. Predict Calorie Expenditure(update 2025/5/6)
 
 [预测卡路里消耗 |卡格尔 --- Predict Calorie Expenditure | Kaggle](https://www.kaggle.com/competitions/playground-series-s5e5)
 
