@@ -9,6 +9,7 @@ This repository documents my learning journey on the Kaggle platform, including 
 1912 年 4 月 15 日，在她的处女航中，被广泛认为“永不沉没”的 RMS 泰坦尼克号在与冰山相撞后沉没。不幸的是，船上的每个人都没有足够的救生艇，导致 1502 名乘客和船员中有 2224 人死亡。虽然生存下来有一些运气因素，但似乎某些群体比其他人更有可能生存下来。在本次挑战赛中，我们要求您构建一个预测模型，使用乘客数据（即姓名、年龄、性别、社会经济阶层等）回答“什么样的人更有可能生存”这个问题。
 
 Goal：你的工作是预测一名乘客是否在泰坦尼克号沉没后幸存下来。对于测试集中的每个值，您必须预测变量的 0 或 1 值，您的分数是您正确预测的乘客百分比，这称为[准确性 ](https://en.wikipedia.org/wiki/Accuracy_and_precision#In_binary_classification)。
+
 $$
 Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
 $$
