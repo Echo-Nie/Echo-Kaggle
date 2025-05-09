@@ -2,7 +2,7 @@
 This repository documents my learning journey on the Kaggle platform, including model study notes and implementations of models actually used in various competitions. 
 
 ## Getting Start
-### 1. Titanic (update 2025/1/3)
+### 1. Titanic (update 2024/6/1)
 
 [Titanic - Machine Learning from Disaster | Kaggle](https://www.kaggle.com/competitions/titanic)
 
