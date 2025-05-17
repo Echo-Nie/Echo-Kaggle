@@ -1,3 +1,4 @@
+# There are still six pieces of code, which will be supplemented after returning from the National Day holiday.😘
 # Kaggle Learning
 This repository documents my learning journey on the Kaggle platform, including model study notes and implementations of models actually used in various competitions. 
 
