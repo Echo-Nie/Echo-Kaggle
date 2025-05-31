@@ -1,4 +1,4 @@
-# There are six more codes, which will be added after 2025.10.1😘
+# There are six more codes, which will be added after 2025.10.25😘
 # Kaggle Learning
 This repository documents my learning journey on the Kaggle platform, including model study notes and implementations of models actually used in various competitions. 
 
