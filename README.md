@@ -2,7 +2,10 @@
 
 <!-- Kaggle-Logo -->
 
-<img src=".\assets\kaggle.png" alt="kaggle" style="zoom: 50%;" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/06b5dd1c-f989-4958-adf8-32fdd4cd882d" 
+       style="width: 300px;" />
+</p>
 
 
 <!-- packages -->
