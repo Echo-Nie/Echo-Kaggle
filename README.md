@@ -1,4 +1,26 @@
 # There are six more codes, which will be added after 2025.10.25😘
+
+<!-- Kaggle-Logo -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/06b5dd1c-f989-4958-adf8-32fdd4cd882d" width="300" />
+</div>
+
+<!-- packages -->
+<div align="center">
+<img alt="Static Badge" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">&nbsp;&nbsp;
+<img alt="Static Badge" src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=Pytorch&logoColor=white">&nbsp;&nbsp;
+<img alt="Static Badge" src="https://img.shields.io/badge/numpy-blue?style=for-the-badge&logo=numpy&logoColor=white">&nbsp;&nbsp;
+<img alt="Static Badge" src="https://img.shields.io/badge/pandas-blue?style=for-the-badge&logo=pandas&logoColor=yellow&color=%23150458">&nbsp;&nbsp;
+<img alt="Static Badge" src="https://img.shields.io/badge/scikitlearn-blue?style=for-the-badge&logo=scikitlearn&logoColor=%23F7931E&color=blue">&nbsp;&nbsp;
+</div>
+
+<!-- some tags -->
+<div align="center">
+    <img src="https://img.shields.io/github/stars/Echo-Nie/Echo-Kaggle?style=flat&logo=GitHub&color=blue" alt="GitHub Stars"/>&nbsp;
+    <img src="https://img.shields.io/badge/build-Kaggle-blue?style=flat&color=blue&logo=jupyter&label=Made%20With%20Jupyter" alt="Build with Jupyter"/>
+</div>
+
+
 # Kaggle Learning
 This repository documents my learning journey on the Kaggle platform, including model study notes and implementations of models actually used in various competitions. 
 
