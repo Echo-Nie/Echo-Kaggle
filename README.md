@@ -31,7 +31,9 @@ This repository documents my learning journey on the Kaggle platform, including 
 ## Playground
 ### 2. Predict Calorie Expenditure (update 2025/5/6)
 
-![Predict Calorie Expenditure](E:\Echo-Kaggle\assets\Predict Calorie Expenditure.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Echo-Nie/Echo-Kaggle/main/assets/Predict%20Calorie%20Expenditure.png" />
+</p>
 
 [Predict Calorie Expenditure | Kaggle](https://www.kaggle.com/competitions/playground-series-s5e5)
 
@@ -62,9 +64,13 @@ id,Calories
 etc。
 ```
 
+---
+
 ### 1. Titanic (update 2024/6/1)
 
-![Titanic](.\assets\Titanic.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Echo-Nie/Echo-Kaggle/main/assets/Titanic.png" />
+</p>
 
 [Titanic - Machine Learning from Disaster | Kaggle](https://www.kaggle.com/competitions/titanic)
 
